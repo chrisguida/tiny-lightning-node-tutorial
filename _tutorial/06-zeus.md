@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Zeus"
+permalink: /tutorial/06-zeus/
+---
+
 
 ## Point-of-sale Device (Zeus)
 - Go to the [iOS App Store](https://apps.apple.com/us/app/zeus-wallet/id1456038895) or the [Google Play Store](https://play.google.com/store/apps/details?id=app.zeusln.zeus&hl=en&pli=1) and install Zeus Wallet.

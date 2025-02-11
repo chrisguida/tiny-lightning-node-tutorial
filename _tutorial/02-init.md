@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Init"
+permalink: /tutorial/02-init/
+---
+
 
 ## Set up the hardware and install system dependencies
 

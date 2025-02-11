@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Phoenixd"
+permalink: /tutorial/03-phoenixd/
+---
+
 
 ## Phoenixd
 

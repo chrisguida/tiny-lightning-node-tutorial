@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Lndhub"
+permalink: /tutorial/05-lndhub/
+---
+
 
 ## LndHub
 - Log into the lnbits superuser portal in your browser (`http://<orangepi LAN IP, same as SSH>:5000`)

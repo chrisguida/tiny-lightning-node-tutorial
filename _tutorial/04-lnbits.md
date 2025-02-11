@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Lnbits"
+permalink: /tutorial/04-lnbits/
+---
+
 
 ## LNBits
 ### Clone the repo
