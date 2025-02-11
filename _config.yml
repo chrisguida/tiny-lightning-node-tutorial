@@ -1,0 +1,8 @@
+title: "Tiny Lightning Node Tutorial"
+baseurl: "/tiny-lightning-node-tutorial"
+permalink: /:path/
+theme: jekyll-theme-cayman # or choose any GitHub Pages-supported theme
+markdown: kramdown
+collections:
+  tutorial:
+    output: true
