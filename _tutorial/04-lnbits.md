@@ -30,7 +30,7 @@ Now create and edit the .env file
 cp .env.example .env
 nano .env
 ```
-- Change `LNBITS_ADMIN_UI=false` to `LNBITS_ADMIN_UI=true`
+- Change `LNBITS_ADMIN_UI=false` to `LNBITS_ADMIN_UI=true` (**PAY ATTENTION TO THE NOTE AT THE TOP EXPLAINING THAT THE REST OF THE CONFIG IS IGNORED WHEN THIS SETTING IS ON**)
 - Change `HOST=127.0.0.1` to `HOST=0.0.0.0`
 - find the `# PhoenixdWallet` section and change the line that says `PHOENIXD_API_PASSWORD=PHOENIXD_KEY` to `PHOENIXD_API_PASSWORD=<paste your http-password>`
 - Ctrl+s then Ctrl+s to save and exit
