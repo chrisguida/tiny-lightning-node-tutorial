@@ -37,3 +37,37 @@ Decide whether you're using Wifi or Ethernet. Then:
 sudo apt update
 sudo apt install docker.io qrencode
 ```
+
+Add yourself to the `docker` group so you can execute docker commands without `sudo`:
+
+```
+sudo usermod -aG docker $USER
+```
+
+You can log out and log back into reflect the changes, or just do
+
+```
+su - $USER
+```
+
+to reload your shell.
+
+Check to see if your user appears in the `docker` group now:
+
+```
+groups
+```
+
+Test to make sure you have access to the docker daemon now:
+
+```
+docker ps
+```
+
+You should see something like this:
+```
+orangepi@orangepizero2w:~$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+```
+
+If so, you're good to go to the next step: setting up your Lightning server!

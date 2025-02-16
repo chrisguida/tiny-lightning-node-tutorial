@@ -38,7 +38,7 @@ By default, phoenixd will request 2Msat of inbound liquidity from the ACINQ LSP,
 
 Edit the phoenixd config:
 ```
-sudo nano "$(docker inspect -f '{{ range .Mounts }}{{ if eq .Destination "/phoenix" }}{{ .Source }}/.phoenix/phoenix.conf{{ end }}{{ end }}' phoenixd)"
+sudo nano "$(docker inspect -f '{% raw %}{{ range .Mounts }}{{ if eq .Destination "/phoenix" }}{{ .Source }}/.phoenix/phoenix.conf{{ end }}{{ end }}{% endraw %}' phoenixd)"
 ```
 Add these two lines to the config file (this should be fine as long as mining fees are lower than 5k):
 ```
