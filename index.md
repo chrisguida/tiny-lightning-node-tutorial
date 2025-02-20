@@ -11,10 +11,9 @@ Welcome to the Tiny Lightning Node Tutorial. This guide will walk you through in
 
 1. [Introduction]({{ site.baseurl }}/tutorial/01-intro/)
 2. [Initialization]({{ site.baseurl }}/tutorial/02-init/)
-3. [Phoenixd Setup]({{ site.baseurl }}/tutorial/03-phoenixd/)
-4. [LNBits]({{ site.baseurl }}/tutorial/04-lnbits/)
-5. [LndHub]({{ site.baseurl }}/tutorial/05-lndhub/)
-6. [Zeus]({{ site.baseurl }}/tutorial/06-zeus/)
+3. [Lightning Node]({{ site.baseurl }}/tutorial/03-node/)
+4. [Lightning Hub]({{ site.baseurl }}/tutorial/04-hub/)
+5. [Point-of-sale App]({{ site.baseurl }}/tutorial/05-pos-app/)
 
 ---
 
