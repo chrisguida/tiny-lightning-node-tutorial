@@ -40,7 +40,7 @@ git checkout main
 poetry install --only main
 ```
 
-If Poetry fails to install packages due to keyring access issues, disable keyring:
+If Poetry hangs when doing dependency installation, the issue may be resolved by disabling keyring:
 ```
 poetry config keyring.enabled false
 ```
