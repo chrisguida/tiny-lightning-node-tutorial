@@ -1,7 +1,6 @@
 ---
-layout: default
 title: "Point-of-sale App"
-permalink: /tutorial/05-pos-app/
+sidebar_position: 5
 ---
 
 # Point-of-sale Device
