@@ -39,6 +39,11 @@ If it worked, you now have poetry and you can move on to the next step:
 git checkout main
 poetry install --only main
 ```
+
+If Poetry fails to install packages due to keyring access issues, disable keyring:
+```
+poetry config keyring.enabled false
+```
 ### Configure LNBits
 Copy to clipboard the http-password from phoenix.conf
 ```
