@@ -1,7 +1,6 @@
 ---
-layout: default
-title: "Phoenixd"
-permalink: /tutorial/03-node/
+title: "Lightning Node"
+sidebar_position: 3
 ---
 
 # Lightning Node

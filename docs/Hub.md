@@ -1,7 +1,6 @@
 ---
-layout: default
 title: "Lightning Hub"
-permalink: /tutorial/04-hub/
+sidebar_position: 4
 ---
 
 # Lightning Hub
