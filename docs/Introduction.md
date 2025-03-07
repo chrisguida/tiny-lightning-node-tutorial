@@ -1,6 +1,7 @@
 ---
 title: "Introduction"
 sidebar_position: 1
+slug: /
 ---
 
 # How to build a tiny self-custodial node to accept Lightning in your shop
