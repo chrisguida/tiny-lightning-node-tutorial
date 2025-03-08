@@ -12,7 +12,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Tiny Lightning Node Tutorial',
   tagline: 'Welcome to the Tiny Lightning Node Tutorial. This guide will walk you through installing Phoenixd and LNBits on an OrangePi Zero 2W and using Zeus Wallet as the PoS app.',
-  favicon: 'img/favicon.ico',
   url: 'https://chrisguida.github.io',
   baseUrl: '/tiny-lightning-node-tutorial/',
   organizationName: 'chrisguida', // Usually your GitHub org/user name.
@@ -45,13 +44,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.jpg',
       navbar: {
         title: 'Tiny Lightning Node Tutorial',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             href: 'https://github.com/chrisguida/tiny-lightning-node-tutorial/',
