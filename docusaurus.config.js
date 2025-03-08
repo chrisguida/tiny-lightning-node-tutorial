@@ -45,6 +45,11 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/social-card.jpg',
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: 'Tiny Lightning Node Tutorial',
         items: [
