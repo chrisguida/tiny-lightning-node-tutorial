@@ -39,6 +39,11 @@ If it worked, you now have poetry and you can move on to the next step:
 git checkout main
 poetry install --only main
 ```
+
+If Poetry hangs when doing dependency installation, the issue may be resolved by disabling keyring:
+```
+poetry config keyring.enabled false
+```
 ### Configure LNBits
 Copy to clipboard the http-password from phoenix.conf
 ```
