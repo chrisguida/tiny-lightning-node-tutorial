@@ -72,19 +72,19 @@ const config = {
               },
               {
                 label: 'Initialization',
-                to: '/Initialization',
+                to: '/initialization',
               },
               {
                 label: 'Lightning Node',
-                to: '/Node',
+                to: '/node',
               },
               {
                 label: 'Lightning Hub',
-                to: '/Hub',
+                to: '/hub',
               },
               {
                 label: 'Point-of-sale App',
-                to: '/PointOfSale',
+                to: '/point-of-sale',
               },
             ],
           },

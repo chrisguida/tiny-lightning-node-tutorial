@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Lightning Node
 
-*Skip this page if you're using Albyhub with LDK, and just proceed straight to [setting up Albyhub](Hub#albyhub).*
+*Skip this page if you're using Albyhub with LDK, and just proceed straight to [setting up Albyhub](hub#albyhub).*
 
 ## Phoenixd
 
