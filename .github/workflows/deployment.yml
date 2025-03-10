@@ -1,14 +1,12 @@
 name: Build and Deploy
 on:
-  pull_request:
+  push:
     branches:
       - master
-    types: [closed]
 permissions:
   contents: write
 jobs:
   build-and-deploy:
-    if: ${{ github.event.pull_request.merged }}
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
