@@ -89,19 +89,11 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Social Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'X (twitter)',
+                href: 'https://x.com/cguida6',
               },
             ],
           },
