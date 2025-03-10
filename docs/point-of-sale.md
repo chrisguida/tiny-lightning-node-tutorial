@@ -1,7 +1,6 @@
 ---
-layout: default
 title: "Point-of-sale App"
-permalink: /tutorial/05-pos-app/
+sidebar_position: 5
 ---
 
 # Point-of-sale Device
@@ -25,7 +24,7 @@ There are 3 point-of-sale apps you can use for this tutorial:
 
 ## Zeus
 ### LNDHub
-If using Zeus, you will need LNDHub set up to connect it to your node. If using LNBits, you should have already done this [when setting up LNBits](04-hub#lndhub). If using Albyhub, follow the steps below:
+If using Zeus, you will need LNDHub set up to connect it to your node. If using LNBits, you should have already done this [when setting up LNBits](hub#lndhub). If using Albyhub, follow the steps below:
 
 #### Albyhub account
 - Sign up for an account at https://getalby.com

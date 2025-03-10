@@ -1,7 +1,7 @@
 ---
-layout: default
-title: "Intro"
-permalink: /tutorial/01-intro/
+title: "Introduction"
+sidebar_position: 1
+slug: /
 ---
 
 # How to build a tiny self-custodial node to accept Lightning in your shop

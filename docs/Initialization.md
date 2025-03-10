@@ -1,7 +1,6 @@
 ---
-layout: default
-title: "Init"
-permalink: /tutorial/02-init/
+title: "Initialization"
+sidebar_position: 2
 ---
 
 

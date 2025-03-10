@@ -1,12 +1,11 @@
 ---
-layout: default
-title: "Phoenixd"
-permalink: /tutorial/03-node/
+title: "Lightning Node"
+sidebar_position: 3
 ---
 
 # Lightning Node
 
-*Skip this page if you're using Albyhub with LDK, and just proceed straight to [setting up Albyhub](04-hub#albyhub).*
+*Skip this page if you're using Albyhub with LDK, and just proceed straight to [setting up Albyhub](hub#albyhub).*
 
 ## Phoenixd
 
