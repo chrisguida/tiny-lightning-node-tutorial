@@ -16,7 +16,7 @@ const config = {
   baseUrl: '/tiny-lightning-node-tutorial/',
   organizationName: 'chrisguida', // Usually your GitHub org/user name.
   projectName: 'tiny-lightning-node-tutorial', // Usually your repo name.
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
