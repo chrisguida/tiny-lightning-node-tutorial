@@ -14,7 +14,7 @@ We will use the Docker image from [sethforprivacy's ghcr repo](https://github.co
 - First create the data volume:
   - `docker volume create phoenixd_data`
 - Now run the image:
-  - `docker run -d --name phoenixd -p 9740:9740 -v phoenixd_data:/phoenix --restart unless-stopped ghcr.io/sethforprivacy/phoenixd`
+  - `docker run -d --name phoenixd -p 9740:9740 -v phoenixd_data:/phoenix --restart unless-stopped ghcr.io/sethforprivacy/phoenixd:v0.4.2`
 - You can optionally [build it yourself](https://github.com/sethforprivacy/phoenixd-docker) rather than pulling from ghcr
     - probably do this on an Apple Silicon Mac, since the OPi will take ages to do the build
 

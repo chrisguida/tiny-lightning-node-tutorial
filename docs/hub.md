@@ -206,7 +206,7 @@ services:
 
   albyhub-phoenixd:
     platform: linux/arm64
-    image: ghcr.io/sethforprivacy/phoenixd:latest
+    image: ghcr.io/sethforprivacy/phoenixd:v0.4.2
     container_name: albyhub-phoenixd
     ports:
       - "9740:9740"
