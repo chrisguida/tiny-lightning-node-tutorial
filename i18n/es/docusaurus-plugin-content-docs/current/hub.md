@@ -224,7 +224,7 @@ volumes:
   - No puedes cambiar esto después sin borrar los datos de Albyhub, así que hazlo bien la primera vez.
   - Usa `http://127.0.0.1:9740` (o la IP de tu LAN si es en otro equipo) para Escritorio, y `http://albyhub-phoenixd:9740` si es en docker-compose.
   - Obtén tu `http-password` de Phoenixd como se describe en la [sección LNBits de arriba](#configura-lnbits), y pégalo en el campo "Authorization" de Albyhub Desktop.
-  - Ya debiste haber adquirido liquidez entrante al configurar [Phoenixd en el paso anterior](node).
+  - Ya debiste haber adquirido liquidez entrante al configurar [Phoenixd en el paso anterior](/tiny-lightning-node-tutorial/es/node).
 
 
 **¡Felicidades, ya tienes tu Lightning Hub configurado!**
