@@ -21,7 +21,20 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'es'],
+    path: 'i18n',
+    localeConfigs: {
+      en: {
+        label: 'English',
+        htmlLang: 'en-US',
+        path: 'en',
+      },
+      es: {
+        label: 'Español',
+        htmlLang: 'es-MX',
+        path: 'es',
+      },
+    },
   },
 
   presets: [
@@ -57,6 +70,10 @@ const config = {
             href: 'https://github.com/chrisguida/tiny-lightning-node-tutorial/',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'left',
           },
         ],
       },
