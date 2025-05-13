@@ -203,6 +203,7 @@ services:
     environment:
       - WORK_DIR=/data/albyhub
       - LOG_EVENTS=true
+    restart: unless-stopped # start container on boot 
 
   albyhub-phoenixd:
     platform: linux/arm64
@@ -213,6 +214,7 @@ services:
     volumes:
       - phoenixd_data:/phoenix
     command: --agree-to-terms-of-service --http-bind-ip 0.0.0.0
+    restart: unless-stopped # start container on boot
 
 volumes:
   phoenixd_data:

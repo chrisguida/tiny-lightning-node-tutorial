@@ -201,16 +201,18 @@ services:
     environment:
       - WORK_DIR=/data/albyhub
       - LOG_EVENTS=true
+    restart: unless-stopped # al arrancar, inicia el contenedor
 
   albyhub-phoenixd:
     platform: linux/arm64
-    image: ghcr.io/sethforprivacy/phoenixd:latest
+    image: ghcr.io/sethforprivacy/phoenixd:v0.4.2
     container_name: albyhub-phoenixd
     ports:
       - "9740:9740"
     volumes:
       - phoenixd_data:/phoenix
     command: --agree-to-terms-of-service --http-bind-ip 0.0.0.0
+    restart: unless-stopped # al arrancar, inicia el contenedor
 
 volumes:
   phoenixd_data:
